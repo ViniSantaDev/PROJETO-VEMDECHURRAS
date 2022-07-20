@@ -1,0 +1,67 @@
+body{
+    background-image: url(./Imagens/FIREFUNDO.png);
+    background-size: 350px;
+
+}
+
+.container{
+    font-family:'Courier New', Courier, monospace;
+    max-width: 300px;
+    margin: auto;
+    background-color:#d43d3d;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing:border-box;
+    margin-bottom: 10px;
+
+}
+
+@font-face {
+    font-family:"CHURRAS" ;
+    src: url(./Fonte/Mont-HeavyDEMO.otf);
+}
+
+button{
+
+    width: 100%;
+    padding: 10px;
+    font-family: 'CHURRAS';
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#resultado{
+    max-width: 300px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'CHURRAS';
+    color: #fff;
+    letter-spacing: 1px
+}
+
+
+.principal{
+   margin-top: -18%;
+   margin-left: 8%;
+}
+
+.result-block {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+  }
+  
+  .result-block img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0;
+    margin-right: 0.5rem;
+  }
+
